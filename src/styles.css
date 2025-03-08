@@ -1,0 +1,145 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.header button {
+  background: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.header button:hover {
+  background: #0056b3;
+}
+
+/* Search Bar */
+.search-bar {
+  width: 100%;
+  padding: 12px;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* News List */
+.news-item {
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.news-item img {
+  width: 100%;
+  height: 200px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-bottom: 8px;
+}
+
+.news-item h2 {
+  font-size: 18px;
+  margin: 0 0 8px;
+}
+
+.news-item p {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+  display: none; /* Hide description by default */
+}
+
+.news-item .more-info {
+  color: #007BFF;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.news-item .more-info:hover {
+  text-decoration: underline;
+}
+
+/* Settings Page */
+.settings-page {
+  display: none; /* Hidden by default */
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  width: 90%;
+  max-width: 400px;
+}
+
+.settings-page h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.language-selector {
+  margin-bottom: 20px;
+}
+
+.language-selector button {
+  background: none;
+  border: none;
+  color: #007BFF;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.language-selector button:hover {
+  text-decoration: underline;
+}
+
+.info-section {
+  font-size: 14px;
+  color: #333;
+}
+
+/* Overlay for Settings */
+.overlay {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
