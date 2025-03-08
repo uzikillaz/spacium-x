@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spacium X</title>
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <div class="header">
+      <h1>Spacium X</h1>
+      <button id="settings-button">Settings</button>
+    </div>
+
+    <!-- Search Bar -->
+    <input
+      type="text"
+      class="search-bar"
+      id="search-bar"
+      placeholder="Search for space news..."
+    />
+
+    <!-- News List -->
+    <div id="news-list">
+      <!-- News items will be dynamically added here -->
+    </div>
+
+    <!-- Settings Page -->
+    <div class="settings-page" id="settings-page">
+      <h2 id="settings-title">Settings</h2>
+      <div class="language-selector">
+        <button onclick="changeLanguage('en')">English</button>
+        <button onclick="changeLanguage('az')">Azərbaycanca</button>
+        <button onclick="changeLanguage('tr')">Türkçe</button>
+        <button onclick="changeLanguage('ru')">Русский</button>
+      </div>
+      <div class="info-section">
+        <p id="info-text">Created by Eldar Alekberoff</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="scripts/main.js"></script>
+</body>
+</html>
