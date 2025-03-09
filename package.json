@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Spacium X: A web app for space news with multi-language support and a modern UI.",
   "scripts": {
-    "start": "vite", // Start the Vite development server
-    "build": "vite build", // Build the app for production
-    "preview": "vite preview" // Preview the production build locally
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "keywords": [
     "space",
@@ -16,12 +16,12 @@
     "spacium-x"
   ],
   "author": "Eldar Alekberoff",
-  "license": "MIT", // MIT License for permissive use
+  "license": "MIT",
   "devDependencies": {
-    "vite": "^5.0.0" // Vite build tool
+    "vite": "^5.0.0"
   },
   "dependencies": {
-    "i18next": "^22.4.14", // For translations
-    "axios": "^1.3.4" // For API calls
+    "i18next": "^22.4.14",
+    "axios": "^1.3.4"
   }
 }
